@@ -10,7 +10,7 @@ function App(props) {
   return (
     <div>
       <h1 style={titleStyles}>Hello, world!</h1>
-      <h2>It is {currDate.toLocaleDateString()} and the time now is {currDate.toLocaleTimeString()}.</h2>
+      <p>It is {currDate.toLocaleDateString()} and the time now is {currDate.toLocaleTimeString()}.</p>
       <button onClick={props.clickEvent}>Click Me!</button>
     </div>
   );
