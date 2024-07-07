@@ -1,3 +1,5 @@
+import MainPanel from './components/MainPanel';
+
 // Functional component
 function App(props) {
   const titleStyles = {
@@ -12,6 +14,8 @@ function App(props) {
       <h1 style={titleStyles}>Hello, world!</h1>
       <p>It is {currDate.toLocaleDateString()} and the time now is {currDate.toLocaleTimeString()}.</p>
       <button onClick={props.clickEvent}>Click Me!</button>
+      <hr/>
+      <MainPanel/>
     </div>
   );
 }

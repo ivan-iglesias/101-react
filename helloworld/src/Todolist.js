@@ -66,7 +66,7 @@ const App = () => {
     <div id="todo-list">
       <h1>Todo List</h1>
 
-      <form onSubmit={handleSubmit} autocomplete="off">
+      <form onSubmit={handleSubmit} autoComplete="off">
         <input type="text" id="todoAdd" />
         <button type="submit">Add Todo</button>
       </form>
